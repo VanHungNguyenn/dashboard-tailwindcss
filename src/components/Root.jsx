@@ -7,7 +7,6 @@ import { useStateContext } from '../contexts/ContextProvider'
 
 const Root = () => {
 	const { activeMenu } = useStateContext()
-	console.log(activeMenu)
 
 	return (
 		<div className='flex relative dark:bg-main-dark-bg'>
